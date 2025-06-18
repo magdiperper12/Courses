@@ -16,19 +16,19 @@ const Courses = ({}) => {
 					<Box
 						bg='red'
 						title='Frontend'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/Frontend'
 					/>
 					<Box
-						bg='blue'
+						bg='black'
 						title='Backend'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/Backend'
 					/>
 					<Box
 						bg='yellow'
 						title='Mobile'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/Mobile'
 					/>
 				</div>
@@ -36,21 +36,21 @@ const Courses = ({}) => {
 					<Box
 						bg='green'
 						title='AI'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/AI'
 					/>
 				</div>
 				<div className='flex justify-center items-center gap-8 w-full'>
 					<Box
-						bg='blue'
+						bg='gray'
 						title='Paython'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/Paython'
 					/>
 					<Box
-						bg='red'
+						bg='cyan'
 						title='AI'
-						img='/Computer troubleshooting-amico.png'
+						img='/Box/Computer troubleshooting-amico.png'
 						url='/pages/Courses/Paython'
 					/>
 				</div>

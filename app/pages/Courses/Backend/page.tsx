@@ -9,6 +9,7 @@ const page = () => {
 				subtitle='this AI course'
 				houres='12'
 				price='5000'
+				color='bg-black'
 				image='/Computer troubleshooting-amico.png'
 			/>
 		</div>

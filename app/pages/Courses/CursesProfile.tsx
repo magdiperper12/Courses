@@ -7,17 +7,26 @@ interface props {
 	houres: string;
 	price: string;
 	image: string;
+	color: string;
 }
-const CursesProfile = ({ title, subtitle, houres, price, image }: props) => {
+const CursesProfile = ({
+	title,
+	subtitle,
+	houres,
+	price,
+	image,
+	color,
+}: props) => {
 	return (
-		<div className='flex justify-around items-start pt-20  h-[80vh]'>
-			<div className='bg-red-500 w-1/2 flex flex-col justify-start items-start h-full '>
+		<div className='flex justify-around items-start pt-20 text-white  h-[80vh]'>
+			<div
+				className={`${color} w-1/2 flex flex-col justify-start items-start h-full `}>
 				<h1>{title}</h1>
 				<h3>{subtitle}</h3>
 				<div>{houres}</div>
 				<div>{price}</div>
 			</div>
-			<div className='bg-blue-500 w-1/2 flex justify-center items-start h-full'>
+			<div className=' w-1/2 flex justify-center items-start h-full'>
 				<Image
 					width={100}
 					height={100}
