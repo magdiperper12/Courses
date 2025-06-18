@@ -10,7 +10,8 @@ const page = () => {
 				houres='12'
 				price='5000'
 				color='bg-red-500'
-				image='/Computer troubleshooting-amico.png'
+				video='Tef1e9FiSR0'
+				image='/Box/amico.png'
 			/>
 		</div>
 	);

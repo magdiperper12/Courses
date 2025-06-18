@@ -26,10 +26,11 @@ const Box = ({ bg, title, img, url }: boxing) => {
 			className={`${backgroundColor} w-full  flex justify-center items-center flex-col h-56 rounded-xl gap-1 shadow-lg shadow-gray-300`}>
 			<h1 className='text-xl font-bold text-white '>{title}</h1>
 			<Image
-				width={180}
-				height={40}
+				width={140}
+				height={10}
 				src={img}
 				alt={title}
+				className=''
 			/>
 		</Link>
 	);

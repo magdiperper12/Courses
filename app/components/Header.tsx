@@ -11,7 +11,11 @@ const Header = () => {
 
 	return (
 		<div className=' border-blue-100 border-b-2 p-4 relative w-full px-10 md:px-12 xl:px-20 flex justify-between items-center'>
-			<div className='text-2xl  font-bold'>codeCraft</div>
+			<Link
+				href={'/'}
+				className='text-2xl  font-bold'>
+				codeCraft
+			</Link>
 			{/*large screen */}
 			<div className='hidden  lg:flex justify-around items-center gap-16 text-base'>
 				<div className='flex justify-center items-center gap-5'>

@@ -16,19 +16,19 @@ const Courses = ({}) => {
 					<Box
 						bg='red'
 						title='Frontend'
-						img='/Box/Computer troubleshooting-amico.png'
+						img='/Box/amico.png'
 						url='/pages/Courses/Frontend'
 					/>
 					<Box
 						bg='black'
 						title='Backend'
-						img='/Box/Computer troubleshooting-amico.png'
+						img='/Box/amico.png'
 						url='/pages/Courses/Backend'
 					/>
 					<Box
 						bg='yellow'
 						title='Mobile'
-						img='/Box/Computer troubleshooting-amico.png'
+						img='/Box/amico.png'
 						url='/pages/Courses/Mobile'
 					/>
 				</div>
@@ -36,7 +36,7 @@ const Courses = ({}) => {
 					<Box
 						bg='green'
 						title='AI'
-						img='/Box/Computer troubleshooting-amico.png'
+						img='/Box/amico.png'
 						url='/pages/Courses/AI'
 					/>
 				</div>
@@ -44,13 +44,13 @@ const Courses = ({}) => {
 					<Box
 						bg='gray'
 						title='Paython'
-						img='/Box/Computer troubleshooting-amico.png'
+						img='/Box/amico.png'
 						url='/pages/Courses/Paython'
 					/>
 					<Box
 						bg='cyan'
-						title='AI'
-						img='/Box/Computer troubleshooting-amico.png'
+						title='UI & UX'
+						img='/Box/amico.png'
 						url='/pages/Courses/Paython'
 					/>
 				</div>

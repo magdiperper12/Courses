@@ -5,12 +5,12 @@ const page = () => {
 	return (
 		<div>
 			<CursesProfile
-				title='Python'
-				subtitle='this AI course'
+				title='UI & UX'
+				subtitle='this UI course'
 				houres='12'
 				price='5000'
-				color='bg-yellow-500'
-				video='yye7rSsiV6k'
+				color='bg-cyan-500'
+				video='TgqeRTwZvIo'
 				image='/Box/amico.png'
 			/>
 		</div>
