@@ -1,10 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 interface boxing {
 	bg: string;
 	title: string;
 	img: string;
+	url: string;
 }
 
 const colorClasses: Record<string, string> = {
@@ -13,11 +15,12 @@ const colorClasses: Record<string, string> = {
 	yellow: 'bg-yellow-500',
 	green: 'bg-green-500',
 };
-const Box = ({ bg, title, img }: boxing) => {
+const Box = ({ bg, title, img, url }: boxing) => {
 	const backgroundColor = colorClasses[bg] || 'bg-gray-500';
 	return (
-		<div
-			className={`${backgroundColor} w-full flex justify-center items-center flex-col h-52 rounded-xl gap-3 shadow-lg shadow-gray-300`}>
+		<Link
+			href={url}
+			className={`${backgroundColor} w-full  flex justify-center items-center flex-col h-56 rounded-xl gap-1 shadow-lg shadow-gray-300`}>
 			<h1 className='text-xl font-bold text-white'>{title}</h1>
 			<Image
 				width={180}
@@ -25,7 +28,7 @@ const Box = ({ bg, title, img }: boxing) => {
 				src={img}
 				alt={title}
 			/>
-		</div>
+		</Link>
 	);
 };
 

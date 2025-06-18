@@ -29,11 +29,8 @@ const Header = () => {
 					</div>
 				</div>
 				<div className='flex justify-center items-center gap-5'>
-					<button className=' bg-cyan-200 text-black px-3 p-1 rounded-full  font-bold'>
-						Sign Up
-					</button>
-					<button className=' bg-cyan-100 text-black px-3 p-1 rounded-full  font-bold '>
-						Log In
+					<button className=' bg-cyan-200 text-black px-3 p-1 rounded-full  font-bold text-lg'>
+						اشترك الان
 					</button>
 				</div>
 			</div>
