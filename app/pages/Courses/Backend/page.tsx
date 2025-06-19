@@ -23,6 +23,23 @@ const page = () => {
 					'لمن يرغب في تعلم كيفية بناء واجهات برمجية (APIs) والتعامل مع قواعد البيانات',
 				]}
 				about='هذه الدورة مخصصة للمبتدئين الذين يرغبون في فهم أساسيات البرمجة الخلفية وتطبيقاتها العملية.'
+				items={[
+					{
+						icon: '💻',
+						roadTitle: 'Backend Development',
+						roadSubtitle: 'Backend Roadmap',
+					},
+					{
+						icon: '📦',
+						roadTitle: 'APIs',
+						roadSubtitle: 'API Development Roadmap',
+					},
+					{
+						icon: '🗄️',
+						roadTitle: 'Databases',
+						roadSubtitle: 'Database Management Roadmap',
+					},
+				]}
 			/>
 		</div>
 	);

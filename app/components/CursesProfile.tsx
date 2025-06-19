@@ -4,7 +4,13 @@ import FAQ from './FAQ';
 import Courses from '../pages/Home/Courses';
 import Header from './Header';
 import Link from 'next/link';
+import Roadmaps from './Roadmaps';
 
+interface items {
+	icon: string;
+	roadTitle: string;
+	roadSubtitle: string;
+}
 interface props {
 	title: string;
 	subtitle: string;
@@ -17,6 +23,7 @@ interface props {
 	about: string;
 	borderColor: string;
 	textColor: string;
+	items: items[];
 }
 const CursesProfile = ({
 	title,
@@ -30,6 +37,7 @@ const CursesProfile = ({
 	about,
 	borderColor,
 	textColor,
+	items,
 }: props) => {
 	return (
 		<div>
@@ -82,23 +90,32 @@ const CursesProfile = ({
 						className={`${color} text-white font-bold text-2xl w-full flex flex-col justify-center items-center p-10 `}>
 						لمن هذه الدورة
 					</div>
-					<div className='flex justify-around items-start pt-20 text-black  '>
+					<div className='flex  items-center justify-between space-y-8 min-h-[80vh] 	max-w-7xl m-auto'>
 						<ul
 							className={` w-1/2 flex flex-col justify-start items-start h-full `}>
 							{list.map((item, index) => (
-								<li key={index}>{item}</li>
+								<div
+									key={index}
+									className='flex items-center mb-2 '>
+									<span
+										className={`${color} w-2 me-3 text-transparent rounded-lg`}>
+										|
+									</span>
+									<li className={`${textColor} text-xl  font-bold`}>{item}</li>
+								</div>
 							))}
 						</ul>
-						<div className=' w-1/2 flex justify-center items-start h-full'>
+						<div>
 							<Image
 								src={image}
 								alt={title}
-								width={100}
-								height={100}
+								width={490}
+								height={200}
 							/>
 						</div>
 					</div>
 				</section>
+
 				<section id='more'>
 					<div
 						className={`${color} text-white font-bold text-2xl w-full flex flex-col justify-center items-center p-10 `}>
@@ -106,9 +123,18 @@ const CursesProfile = ({
 					</div>
 					<div>{about}</div>
 				</section>
+
+				<section>
+					<Roadmaps
+						items={items}
+						color={color}
+						textColor={textColor}
+						title={title}
+					/>
+				</section>
 			</div>
 			<section className='my-10 '>
-				<FAQ />
+				<FAQ textColor={textColor} />
 			</section>
 			<section className='my-10 '>
 				<h1 className='w-full text-center font-bold text-3xl mb-10'>

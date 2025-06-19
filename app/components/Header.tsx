@@ -20,7 +20,7 @@ const Header = ({ color, textColor }: HeaderProps) => {
 			<Link
 				href={'/'}
 				className='text-2xl  font-bold'>
-				codeCraft
+				{`</ Token>`}
 			</Link>
 			{/*large screen */}
 			<div className='hidden  lg:flex justify-around items-center gap-16 text-base'>

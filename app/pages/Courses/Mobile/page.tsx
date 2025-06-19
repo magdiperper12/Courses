@@ -22,6 +22,23 @@ const page = () => {
 					'لمن يسعى للحصول على فرص عمل في مجال تطوير تطبيقات الهواتف المحمولة',
 				]}
 				about='هذه الدورة مخصصة للمبتدئين الذين يرغبون في فهم أساسيات تطوير تطبيقات الهواتف المحمولة وتطبيقاتها العملية.'
+				items={[
+					{
+						icon: '📱',
+						roadTitle: 'Mobile Development',
+						roadSubtitle: 'Mobile Roadmap',
+					},
+					{
+						icon: '⚛️',
+						roadTitle: 'React Native',
+						roadSubtitle: 'React Native Roadmap',
+					},
+					{
+						icon: '📦',
+						roadTitle: 'Flutter',
+						roadSubtitle: 'Flutter Roadmap',
+					},
+				]}
 			/>
 		</div>
 	);
