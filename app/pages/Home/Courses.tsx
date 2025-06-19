@@ -4,13 +4,6 @@ import React from 'react';
 const Courses = ({}) => {
 	return (
 		<div className='space-y-8 '>
-			<section className='flex justify-center items-center  flex-col gap-3'>
-				<h1 className='text-4xl text-gray-700'>دورات أكاديمية توكن</h1>
-				<p className='text-lg text-gray-600'>
-					دورات شاملة لتعلم البرمجة تعتمد على التطبيق العملي وبناء مشاريع
-					حقيقية، تبدأ معك من الصفر وتأخذك خطوة بخطوة حتى الاحتراف
-				</p>
-			</section>
 			<section className='max-w-7xl m-auto space-y-8'>
 				<div className='flex justify-center items-center gap-8 w-full '>
 					<Box
@@ -51,7 +44,7 @@ const Courses = ({}) => {
 						bg='cyan'
 						title='UI & UX'
 						img='/Box/amico.png'
-						url='/pages/Courses/Paython'
+						url='/pages/Courses/UI'
 					/>
 				</div>
 			</section>
