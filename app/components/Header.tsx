@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -41,9 +42,17 @@ const Header = ({ color, textColor }: HeaderProps) => {
 				</div>
 				<div className='flex justify-center items-center gap-5'>
 					<Link
-						href={'/sign-up'}
+						href={'/pages/subscribe'}
 						className={`${textColor} bg-white px-3 p-1 rounded-full  font-bold text-lg`}>
 						اشترك الان
+					</Link>
+					<Link href={'/pages/profile'}>
+						<Image
+							src='/home_hero_image.webp'
+							alt='Hero Image'
+							width={45}
+							height={20}
+						/>
 					</Link>
 				</div>
 			</div>

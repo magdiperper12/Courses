@@ -3,6 +3,7 @@ import React from 'react';
 import FAQ from './FAQ';
 import Courses from '../pages/Home/Courses';
 import Header from './Header';
+import Link from 'next/link';
 
 interface props {
 	title: string;
@@ -51,10 +52,11 @@ const CursesProfile = ({
 						</div>
 
 						<div className='flex gap-4 mt-6'>
-							<button
+							<Link
+								href={'/pages/subscribe'}
 								className={`${color} text-white px-6 py-2 rounded-xl font-semibold shadow-md hover:opacity-90 transition`}>
 								اشترك الآن
-							</button>
+							</Link>
 							<a
 								href='#more'
 								className={`border-2 ${borderColor} ${textColor} px-6 py-2 rounded-xl font-semibold hover:bg-gray-100 transition`}>

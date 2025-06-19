@@ -3,8 +3,8 @@ import React from 'react';
 
 const Why = () => {
 	return (
-		<div className=''>
-			<div className='grid grid-cols-3 w-7xl m-auto gap-7 gap-y-10'>
+		<div className=' flex flex-col justify-center items-center gap-10 py-10'>
+			<div className='grid grid-cols-3 w-7xl m-auto gap-12 gap-y-10'>
 				<SecoundBox
 					icon={'/secoundBox/certificate.png'}
 					title='شهادة معتمدة'

@@ -8,7 +8,7 @@ interface props {
 }
 const SecoundBox = ({ icon, title, subtitle }: props) => {
 	return (
-		<div className='flex justify-center items-center   flex-col gap-2 p-6 rounded-xl shadow-xl transition-all duration-150 hover:shadow-sm'>
+		<div className='flex justify-center items-center bg-white  flex-col gap-2 p-6 rounded-xl shadow-xl transition-all duration-150 hover:shadow-sm'>
 			<Image
 				src={icon}
 				alt={title}
