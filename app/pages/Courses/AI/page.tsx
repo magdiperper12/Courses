@@ -11,7 +11,7 @@ const page = () => {
 				price='5000'
 				color='bg-green-500'
 				borderColor='border-green-500'
-				textColor='border-green-500'
+				textColor='text-green-500'
 				video='7IgVGSaQPaw'
 				image='/Box/amico.png'
 				list={[

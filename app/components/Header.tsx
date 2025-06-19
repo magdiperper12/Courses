@@ -3,14 +3,19 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const Header = () => {
+interface HeaderProps {
+	color: string;
+	textColor: string;
+}
+const Header = ({ color, textColor }: HeaderProps) => {
 	const [show, setShow] = useState(false);
 	const handellShow = () => {
 		setShow(!show);
 	};
 
 	return (
-		<div className=' border-blue-100 border-b-2 p-4 relative w-full px-10 md:px-12 xl:px-20 flex justify-between items-center'>
+		<div
+			className={` ${color} text-white  border-b-2 p-4 relative w-full px-10 md:px-12 xl:px-20 flex justify-between items-center`}>
 			<Link
 				href={'/'}
 				className='text-2xl  font-bold'>
@@ -25,17 +30,19 @@ const Header = () => {
 					<Link href={'/'}>Pricing</Link>
 				</div>
 				<div className='flex justify-center items-center gap-5'>
-					<div className='text-black bg-blue-100 rounded-full p-1 w-8 h-8 flex justify-center items-center'>
+					<div
+						className={`${textColor} bg-white  rounded-full p-1 w-8 h-8 flex justify-center items-center`}>
 						L
 					</div>
-					<div className='text-black bg-blue-100 rounded-full p-1 w-8 h-8 flex justify-center items-center'>
+					<div
+						className={`${textColor} bg-white rounded-full p-1 w-8 h-8 flex justify-center items-center`}>
 						D
 					</div>
 				</div>
 				<div className='flex justify-center items-center gap-5'>
 					<Link
 						href={'/sign-up'}
-						className=' bg-cyan-200 text-black px-3 p-1 rounded-full  font-bold text-lg'>
+						className={`${textColor} bg-white px-3 p-1 rounded-full  font-bold text-lg`}>
 						اشترك الان
 					</Link>
 				</div>
