@@ -6,7 +6,11 @@ const page = () => {
 		<div>
 			<CursesProfile
 				title='UI & UX'
-				subtitle='this UI course'
+				subtitle={[
+					'فيديو تدريبية وتدريب اكاديمي',
+					'شهادة معتمدة من أكاديمية حسوب',
+					'متابعة أثناء الدورة وبعدها من قبل فريق مختص',
+				]}
 				houres='12'
 				price='5000'
 				color='bg-cyan-500'

@@ -5,6 +5,7 @@ import Courses from '../pages/Home/Courses';
 import Header from './Header';
 import Link from 'next/link';
 import Roadmaps from './Roadmaps';
+import { FaCircleCheck } from 'react-icons/fa6';
 
 interface items {
 	icon: string;
@@ -13,7 +14,7 @@ interface items {
 }
 interface props {
 	title: string;
-	subtitle: string;
+	subtitle: string[];
 	houres: string;
 	price: string;
 	video: string;
@@ -52,7 +53,17 @@ const CursesProfile = ({
 						<h1 className={`text-3xl md:text-4xl font-bold  ${textColor}`}>
 							{title}
 						</h1>
-						<h3 className='text-lg md:text-xl text-gray-700'>{subtitle}</h3>
+						{subtitle.map((item, index) => (
+							<h3
+								key={index}
+								className='text-lg md:text-xl text-gray-700'>
+								<span
+									className={`${color} p-1 px-4 me-3 text-transparent rounded-full`}>
+									<FaCircleCheck />
+								</span>
+								{item}
+							</h3>
+						))}
 
 						<div className='flex items-center gap-6 mt-2 text-base md:text-lg font-medium'>
 							<span>🕒 {houres} ساعة</span>
