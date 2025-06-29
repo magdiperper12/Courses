@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Courses from './Courses';
 import Why from './Why';
 import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
 
 const HomePage = () => {
 	return (
@@ -11,6 +12,7 @@ const HomePage = () => {
 				color={'bg-blue-500'}
 				textColor={'text-black'}
 			/>
+
 			<div className='space-y-32 '>
 				<div>
 					{' '}
@@ -30,6 +32,10 @@ const HomePage = () => {
 					<Why />
 				</div>
 			</div>
+			<Footer
+				color={'bg-blue-500'}
+				textColor={'text-white'}
+			/>
 		</div>
 	);
 };

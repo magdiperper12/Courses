@@ -11,8 +11,8 @@ const page = () => {
 					'شهادة معتمدة من أكاديمية حسوب',
 					'متابعة أثناء الدورة وبعدها من قبل فريق مختص',
 				]}
-				houres='12'
-				price='5000'
+				houres='52'
+				price='3500'
 				color='bg-gray-500'
 				borderColor='border-gray-500'
 				textColor='text-gray-500'
@@ -33,18 +33,83 @@ const page = () => {
 				items={[
 					{
 						icon: '🐍',
-						roadTitle: 'Python Development',
-						roadSubtitle: 'Python Roadmap',
+						roadTitle: 'Introduction to Python & Setup',
+						roadTitleArabic: 'مقدمة في بايثون وتجهيز بيئة العمل',
+						roadSubtitle: 'Week 1 - الأسبوع الأول',
+					},
+					{
+						icon: '🔤',
+						roadTitle: 'Variables, Data Types & Operators',
+						roadTitleArabic: 'المتغيرات وأنواع البيانات والعوامل',
+						roadSubtitle: 'Week 2 - الأسبوع الثاني',
+					},
+					{
+						icon: '🔁',
+						roadTitle: 'Conditional Statements & Loops',
+						roadTitleArabic: 'الشروط والتكرار (if - for - while)',
+						roadSubtitle: 'Week 3 - الأسبوع الثالث',
+					},
+					{
+						icon: '🧱',
+						roadTitle: 'Functions & Scope',
+						roadTitleArabic: 'الدوال ونطاق المتغيرات',
+						roadSubtitle: 'Week 4 - الأسبوع الرابع',
+					},
+					{
+						icon: '📦',
+						roadTitle: 'Lists, Tuples, Sets & Dictionaries',
+						roadTitleArabic: 'القوائم، والمجموعات، والقواميس',
+						roadSubtitle: 'Week 5 - الأسبوع الخامس',
+					},
+					{
+						icon: '📁',
+						roadTitle: 'Files & Exception Handling',
+						roadTitleArabic: 'قراءة وكتابة الملفات ومعالجة الأخطاء',
+						roadSubtitle: 'Week 6 - الأسبوع السادس',
+					},
+					{
+						icon: '🔧',
+						roadTitle: 'Modules, Packages & Virtual Environments',
+						roadTitleArabic: 'الوحدات والمكتبات والبيئات الافتراضية',
+						roadSubtitle: 'Week 7 - الأسبوع السابع',
 					},
 					{
 						icon: '📊',
-						roadTitle: 'Data Analysis',
-						roadSubtitle: 'Data Analysis Roadmap',
+						roadTitle:
+							'Working with External Libraries (e.g., requests, matplotlib)',
+						roadTitleArabic:
+							'استخدام المكتبات الخارجية مثل requests وmatplotlib',
+						roadSubtitle: 'Week 8 - الأسبوع الثامن',
 					},
 					{
-						icon: '🤖',
-						roadTitle: 'Machine Learning',
-						roadSubtitle: 'Machine Learning Roadmap',
+						icon: '📐',
+						roadTitle: 'Object-Oriented Programming (OOP)',
+						roadTitleArabic: 'البرمجة كائنية التوجه (OOP)',
+						roadSubtitle: 'Week 9 - الأسبوع التاسع',
+					},
+					{
+						icon: '🧪',
+						roadTitle: 'Unit Testing & Debugging',
+						roadTitleArabic: 'اختبار الكود وتصحيح الأخطاء',
+						roadSubtitle: 'Week 10 - الأسبوع العاشر',
+					},
+					{
+						icon: '🌐',
+						roadTitle: 'Intro to Web Development with Flask',
+						roadTitleArabic: 'مقدمة في تطوير الويب باستخدام Flask',
+						roadSubtitle: 'Week 11 - الأسبوع الحادي عشر',
+					},
+					{
+						icon: '🚀',
+						roadTitle: 'Capstone Project: Build a Python App',
+						roadTitleArabic: 'مشروع التخرج: بناء تطبيق بايثون عملي',
+						roadSubtitle: 'Week 12 - الأسبوع الثاني عشر',
+					},
+					{
+						icon: '🎓',
+						roadTitle: 'Final Assessment & Certificate Test',
+						roadTitleArabic: 'الاختبار النهائي للحصول على الشهادة',
+						roadSubtitle: 'Week 13 - الأسبوع الثالث عشر',
 					},
 				]}
 			/>

@@ -4,6 +4,7 @@ interface items {
 	icon: string;
 	roadTitle: string;
 	roadSubtitle: string;
+	roadTitleArabic: string;
 }
 interface RoadmapsProps {
 	color: string;
@@ -35,6 +36,7 @@ const Roadmaps = ({ color, textColor, items, title }: RoadmapsProps) => {
 								className={`${color} p-6 rounded-xl shadow-lg text-white flex flex-col items-center`}>
 								<div className='text-3xl mb-2'>{item.icon}</div>
 								<h1 className='font-bold text-xl'>{item.roadTitle}</h1>
+								<h1 className='font-bold text-xl'>{item.roadTitleArabic}</h1>
 								<p className='text-sm'>{item.roadSubtitle}</p>
 							</div>
 						</div>

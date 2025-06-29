@@ -6,11 +6,13 @@ import Header from './Header';
 import Link from 'next/link';
 import Roadmaps from './Roadmaps';
 import { FaCircleCheck } from 'react-icons/fa6';
+import Footer from './Footer';
 
 interface items {
 	icon: string;
 	roadTitle: string;
 	roadSubtitle: string;
+	roadTitleArabic: string;
 }
 interface props {
 	title: string;
@@ -56,11 +58,10 @@ const CursesProfile = ({
 						{subtitle.map((item, index) => (
 							<h3
 								key={index}
-								className='text-lg md:text-xl text-gray-700'>
-								<span
-									className={`${color} p-1 px-4 me-3 text-transparent rounded-full`}>
-									<FaCircleCheck />
-								</span>
+								className='text-lg md:text-xl text-gray-700 flex items-center gap-2'>
+								<FaCircleCheck
+									className={`${color} text-white rounded-full border-2 ${borderColor}`}
+								/>
 								{item}
 							</h3>
 						))}
@@ -112,7 +113,7 @@ const CursesProfile = ({
 										className={`${color} w-2 me-3 text-transparent rounded-lg`}>
 										|
 									</span>
-									<li className={`${textColor} text-xl  font-bold`}>{item}</li>
+									<li className={` text-xl  font-bold`}>{item}</li>
 								</div>
 							))}
 						</ul>
@@ -132,7 +133,7 @@ const CursesProfile = ({
 						className={`${color} text-white font-bold text-2xl w-full flex flex-col justify-center items-center p-10 `}>
 						عن الدورة
 					</div>
-					<div>{about}</div>
+					<div className='text-xl py-4 '>{about}</div>
 				</section>
 
 				<section>
@@ -153,6 +154,10 @@ const CursesProfile = ({
 				</h1>
 				<Courses />
 			</section>
+			<Footer
+				color={`${color}`}
+				textColor={`text-white`}
+			/>
 		</div>
 	);
 };

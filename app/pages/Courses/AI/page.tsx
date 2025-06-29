@@ -11,7 +11,7 @@ const page = () => {
 					'شهادة معتمدة من أكاديمية حسوب',
 					'متابعة أثناء الدورة وبعدها من قبل فريق مختص',
 				]}
-				houres='12'
+				houres='52'
 				price='5000'
 				color='bg-green-500'
 				borderColor='border-green-500'
@@ -35,24 +35,86 @@ const page = () => {
 ستمدك هذه الدورة بما تحتاج إليه من معلومات عملية لبناء أنظمة تنبؤ واقتراحات في متجرك، وأنظمة تحليل النصوص وتصنيف الرسائل والتعرف على الصور بإنشاء نماذج ذكاء اصطناعي خاصة بك تبرمجها بنفسك اعتمادًا على متطلباتك باستخدام مختلف الخوازرميات والمكتبات.'
 				items={[
 					{
-						icon: '🤖',
-						roadTitle: 'AI',
-						roadSubtitle: 'AI Roadmap',
+						icon: '🧠',
+						roadTitle: 'Introduction to AI & Its Applications',
+						roadTitleArabic: 'مقدمة في الذكاء الاصطناعي وتطبيقاته',
+						roadSubtitle: 'Week 1 - الأسبوع الأول',
 					},
 					{
 						icon: '📊',
-						roadTitle: 'Data Analysis',
-						roadSubtitle: 'Data Analysis Roadmap',
+						roadTitle: 'Math for AI: Linear Algebra & Probability',
+						roadTitleArabic:
+							'الرياضيات للذكاء الاصطناعي: الجبر الخطي والاحتمالات',
+						roadSubtitle: 'Week 2 - الأسبوع الثاني',
+					},
+					{
+						icon: '🐍',
+						roadTitle: 'Python for AI: Numpy, Pandas, Matplotlib',
+						roadTitleArabic:
+							'بايثون للذكاء الاصطناعي: Numpy وPandas وMatplotlib',
+						roadSubtitle: 'Week 3 - الأسبوع الثالث',
+					},
+					{
+						icon: '🤖',
+						roadTitle: 'Introduction to Machine Learning',
+						roadTitleArabic: 'مقدمة في تعلم الآلة',
+						roadSubtitle: 'Week 4 - الأسبوع الرابع',
+					},
+					{
+						icon: '🧩',
+						roadTitle: 'Supervised Learning: Regression & Classification',
+						roadTitleArabic: 'التعلم الخاضع للإشراف: الانحدار والتصنيف',
+						roadSubtitle: 'Week 5 - الأسبوع الخامس',
+					},
+					{
+						icon: '📈',
+						roadTitle: 'Model Evaluation & Metrics',
+						roadTitleArabic: 'تقييم النماذج ومقاييس الأداء',
+						roadSubtitle: 'Week 6 - الأسبوع السادس',
+					},
+					{
+						icon: '🔍',
+						roadTitle:
+							'Unsupervised Learning: Clustering & Dimensionality Reduction',
+						roadTitleArabic:
+							'التعلم غير الخاضع للإشراف: التجميع وتقليل الأبعاد',
+						roadSubtitle: 'Week 7 - الأسبوع السابع',
 					},
 					{
 						icon: '🧠',
-						roadTitle: 'Machine Learning',
-						roadSubtitle: 'Machine Learning Roadmap',
+						roadTitle: 'Neural Networks Basics',
+						roadTitleArabic: 'أساسيات الشبكات العصبية',
+						roadSubtitle: 'Week 8 - الأسبوع الثامن',
+					},
+					{
+						icon: '🔥',
+						roadTitle: 'Deep Learning with TensorFlow/Keras',
+						roadTitleArabic: 'التعلم العميق باستخدام TensorFlow أو Keras',
+						roadSubtitle: 'Week 9 - الأسبوع التاسع',
 					},
 					{
 						icon: '🖼️',
-						roadTitle: 'Computer Vision',
-						roadSubtitle: 'Computer Vision Roadmap',
+						roadTitle: 'Computer Vision: CNNs & Image Processing',
+						roadTitleArabic: 'رؤية الحاسوب: الشبكات الالتفافية ومعالجة الصور',
+						roadSubtitle: 'Week 10 - الأسبوع العاشر',
+					},
+					{
+						icon: '🗣️',
+						roadTitle: 'Natural Language Processing (NLP)',
+						roadTitleArabic: 'معالجة اللغة الطبيعية (NLP)',
+						roadSubtitle: 'Week 11 - الأسبوع الحادي عشر',
+					},
+					{
+						icon: '🚀',
+						roadTitle: 'Capstone Project: Build an AI Solution',
+						roadTitleArabic: 'مشروع التخرج: بناء حل ذكاء اصطناعي عملي',
+						roadSubtitle: 'Week 12 - الأسبوع الثاني عشر',
+					},
+					{
+						icon: '🎓',
+						roadTitle: 'Final Assessment & Certificate Test',
+						roadTitleArabic: 'الاختبار النهائي للحصول على الشهادة',
+						roadSubtitle: 'Week 13 - الأسبوع الثالث عشر',
 					},
 				]}
 			/>
