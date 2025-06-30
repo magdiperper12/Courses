@@ -7,12 +7,13 @@ import Link from 'next/link';
 import Roadmaps from './Roadmaps';
 import { FaCircleCheck } from 'react-icons/fa6';
 import Footer from './Footer';
+import Certificate from './Certificate';
 
 interface items {
 	icon: string;
 	roadTitle: string;
 	roadSubtitle: string;
-	roadTitleArabic: string;
+	Describe: string;
 }
 interface props {
 	title: string;
@@ -48,7 +49,7 @@ const CursesProfile = ({
 				color={color}
 				textColor={textColor}
 			/>
-			<div className='space-y-16 max-w-11/12 m-auto'>
+			<div className='md:space-y-16 max-w-11/12 m-auto'>
 				<section className='flex flex-col-reverse lg:flex-row items-center justify-between gap-10 py-16 px-4 text-black'>
 					{/* النصوص والمحتوى */}
 					<div className='w-full lg:w-1/2 space-y-4'>
@@ -102,22 +103,22 @@ const CursesProfile = ({
 						className={`${color} text-white font-bold text-2xl w-full flex flex-col justify-center items-center p-10 `}>
 						لمن هذه الدورة
 					</div>
-					<div className='flex  items-center justify-between space-y-8 min-h-[80vh] 	max-w-7xl m-auto'>
+					<div className='flex flex-col lg:flex-row items-center justify-between space-y-8 min-h-[80vh] 	max-w-7xl m-auto'>
 						<ul
-							className={` w-1/2 flex flex-col justify-start items-start h-full `}>
+							className={` order-2 md:order-1  w-full md:w-1/2 flex flex-col justify-start items-start h-full `}>
 							{list.map((item, index) => (
 								<div
 									key={index}
-									className='flex items-center mb-2 '>
+									className='flex my-2 md:items-center items-start justify-start mb-2 '>
 									<span
-										className={`${color} w-2 me-3 text-transparent rounded-lg`}>
-										|
+										className={`${color} h-4 w-4 me-3 text-transparent rounded-lg`}>
+										....
 									</span>
 									<li className={` text-xl  font-bold`}>{item}</li>
 								</div>
 							))}
 						</ul>
-						<div>
+						<div className='my-8 order-1 md:order-2'>
 							<Image
 								src={image}
 								alt={title}
@@ -145,6 +146,9 @@ const CursesProfile = ({
 					/>
 				</section>
 			</div>
+			<section className='my-10 '>
+				<Certificate />
+			</section>
 			<section className='my-10 '>
 				<FAQ textColor={textColor} />
 			</section>

@@ -4,10 +4,10 @@ import React from 'react';
 const Courses = ({}) => {
 	return (
 		<div className='space-y-8 '>
-			<section className='max-w-7xl m-auto space-y-8'>
-				<div className='flex justify-center items-center gap-8 w-full '>
+			<section className='max-w-7xl m-auto space-y-8 p-4'>
+				<div className='flex md:flex-row flex-col  justify-center items-center gap-8 w-full '>
 					<Box
-						bg='red'
+						bg='blue'
 						title='Frontend'
 						img='/Box/amico.png'
 						url='/pages/Courses/Frontend'
@@ -33,7 +33,7 @@ const Courses = ({}) => {
 						url='/pages/Courses/AI'
 					/>
 				</div>
-				<div className='flex justify-center items-center gap-8 w-full'>
+				<div className='flex md:flex-row flex-col justify-center items-center gap-8 w-full'>
 					<Box
 						bg='gray'
 						title='Paython'

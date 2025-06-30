@@ -30,81 +30,92 @@ const page = () => {
 					{
 						icon: '📱',
 						roadTitle: 'Introduction to Mobile Development & Flutter',
-						roadTitleArabic: 'مقدمة لتطوير تطبيقات الموبايل وFlutter',
+						Describe:
+							'مقدمة حول تطوير تطبيقات الأجهزة المحمولة، ولماذا نستخدم Flutter، وكيفية إعداد بيئة التطوير.',
 						roadSubtitle: 'Week 1 - الأسبوع الأول',
 					},
 					{
 						icon: '🧱',
 						roadTitle: 'Dart Basics: Variables, Functions, Control Flow',
-						roadTitleArabic:
-							'أساسيات لغة Dart: المتغيرات والدوال والتحكم في التدفق',
+						Describe:
+							'تعلم أساسيات لغة Dart من المتغيرات والأنواع والدوال وجمل التحكم مثل if وloop.',
 						roadSubtitle: 'Week 2 - الأسبوع الثاني',
 					},
 					{
 						icon: '🔄',
 						roadTitle: 'OOP in Dart & Working with Widgets',
-						roadTitleArabic: 'البرمجة الكائنية في Dart والعمل مع الودجتس',
+						Describe:
+							'فهم البرمجة الكائنية (OOP) في Dart، واستخدام الودجتس (Widgets) لبناء واجهات تفاعلية.',
 						roadSubtitle: 'Week 3 - الأسبوع الثالث',
 					},
 					{
 						icon: '🎨',
 						roadTitle: 'Layout Widgets, Rows, Columns & Styling',
-						roadTitleArabic: 'تصميم الواجهات باستخدام Rows وColumns والتنسيق',
+						Describe:
+							'تصميم الواجهات باستخدام Widgets مثل Row وColumn وContainer مع تخصيص الألوان والمسافات.',
 						roadSubtitle: 'Week 4 - الأسبوع الرابع',
 					},
 					{
 						icon: '🧭',
 						roadTitle: 'Navigation & Routing in Flutter',
-						roadTitleArabic: 'التنقل بين الصفحات وإدارة التوجيه',
+						Describe:
+							'إنشاء التنقل بين الصفحات باستخدام Navigator وإعداد التوجيه داخل التطبيق.',
 						roadSubtitle: 'Week 5 - الأسبوع الخامس',
 					},
 					{
 						icon: '📂',
 						roadTitle: 'State Management (setState, Provider)',
-						roadTitleArabic: 'إدارة الحالة باستخدام setState وProvider',
+						Describe:
+							'التعامل مع إدارة الحالة باستخدام setState ثم التدرج إلى استخدام Provider لتطبيقات أكبر.',
 						roadSubtitle: 'Week 6 - الأسبوع السادس',
 					},
 					{
 						icon: '🧪',
 						roadTitle: 'Mini Projects (UI + Logic)',
-						roadTitleArabic: 'مشاريع صغيرة (تصميم + منطق)',
+						Describe:
+							'بناء تطبيقات صغيرة تجمع بين التصميم والمنطق البرمجي مثل الآلات الحاسبة وتطبيقات المهام.',
 						roadSubtitle: 'Week 7 - الأسبوع السابع',
 					},
 					{
 						icon: '🌐',
 						roadTitle: 'API Integration & HTTP Requests',
-						roadTitleArabic: 'ربط التطبيقات بـ API وطلبات HTTP',
+						Describe:
+							'التعامل مع الإنترنت داخل التطبيق، وإرسال واستقبال البيانات من خلال HTTP وJSON.',
 						roadSubtitle: 'Week 8 - الأسبوع الثامن',
 					},
 					{
 						icon: '💾',
 						roadTitle: 'Local Storage: SharedPreferences, SQLite',
-						roadTitleArabic:
-							'التخزين المحلي باستخدام SharedPreferences وSQLite',
+						Describe:
+							'تخزين البيانات محليًا داخل الهاتف باستخدام SharedPreferences وSQLite.',
 						roadSubtitle: 'Week 9 - الأسبوع التاسع',
 					},
 					{
 						icon: '⚙️',
 						roadTitle: 'Authentication & Firebase Basics',
-						roadTitleArabic: 'تسجيل الدخول وأساسيات Firebase',
+						Describe:
+							'إضافة تسجيل الدخول باستخدام Firebase Authentication، وفهم الربط بين التطبيق وقاعدة البيانات السحابية.',
 						roadSubtitle: 'Week 10 - الأسبوع العاشر',
 					},
 					{
 						icon: '🚀',
 						roadTitle: 'Publishing to Play Store & App Testing',
-						roadTitleArabic: 'نشر التطبيق على متجر Google واختباره',
+						Describe:
+							'اختبار التطبيق على مختلف الأجهزة وتحضيره للنشر على Google Play مع إنشاء حزمة APK/AAB.',
 						roadSubtitle: 'Week 11 - الأسبوع الحادي عشر',
 					},
 					{
 						icon: '🏗️',
 						roadTitle: 'Final Project (Full App)',
-						roadTitleArabic: 'مشروع التخرج (تطبيق متكامل)',
+						Describe:
+							'بناء مشروع تخرج متكامل يجمع بين كل المهارات السابقة مثل تطبيق مهام أو متجر إلكتروني بسيط.',
 						roadSubtitle: 'Week 12 - الأسبوع الثاني عشر',
 					},
 					{
 						icon: '🎓',
 						roadTitle: 'Final Assessment & Certificate Test',
-						roadTitleArabic: 'التقييم النهائي واختبار الشهادة',
+						Describe:
+							'تقييم شامل للمستوى النهائي مع اختبار عملي أو نظري للحصول على شهادة اجتياز الدورة.',
 						roadSubtitle: 'Week 13 - الأسبوع الثالث عشر',
 					},
 				]}

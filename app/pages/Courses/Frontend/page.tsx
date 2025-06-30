@@ -13,9 +13,9 @@ const page = () => {
 				]}
 				houres='52'
 				price='3500'
-				color='bg-red-500'
-				borderColor='border-red-500'
-				textColor='text-red-500'
+				color='bg-blue-600'
+				borderColor='border-blue-600'
+				textColor='text-blue-600'
 				video='Tef1e9FiSR0'
 				image='/Box/amico.png'
 				list={[
@@ -32,79 +32,92 @@ const page = () => {
 					{
 						icon: '🌐',
 						roadTitle: 'Introduction to Frontend & HTML',
-						roadTitleArabic: 'مقدمة في تطوير الواجهة الأمامية وHTML',
+						Describe:
+							'مقدمة شاملة في تطوير الواجهة الأمامية، وتعلم بنية صفحات الويب باستخدام HTML، مع فهم للعناصر الأساسية مثل العناوين، الفقرات، الروابط، الصور والقوائم.',
 						roadSubtitle: 'Week 1 - الأسبوع الأول',
 					},
 					{
 						icon: '🎨',
 						roadTitle: 'CSS & Responsive Design',
-						roadTitleArabic: 'CSS والتصميم المتجاوب',
+						Describe:
+							'تعلم كيفية تنسيق صفحات الويب باستخدام CSS، مع التركيز على التصميم المتجاوب ليظهر الموقع بشكل جيد على جميع الأجهزة.',
 						roadSubtitle: 'Week 2 - الأسبوع الثاني',
 					},
 					{
 						icon: '📱',
 						roadTitle: 'Advanced CSS & Flexbox/Grid',
-						roadTitleArabic: 'CSS المتقدم وFlexbox/Grid',
+						Describe:
+							'التعمق في تقنيات CSS المتقدمة مثل Flexbox وGrid لتصميم واجهات أكثر احترافية وتنظيم العناصر بشكل مرن.',
 						roadSubtitle: 'Week 3 - الأسبوع الثالث',
 					},
 					{
 						icon: '⚙️',
 						roadTitle: 'JavaScript Basics',
-						roadTitleArabic: 'أساسيات JavaScript',
+						Describe:
+							'مقدمة إلى لغة JavaScript، تشمل المتغيرات، الجمل الشرطية، الحلقات، الدوال، وأنواع البيانات.',
 						roadSubtitle: 'Week 4 - الأسبوع الرابع',
 					},
 					{
 						icon: '🧠',
 						roadTitle: 'JavaScript in Practice',
-						roadTitleArabic: 'تطبيق عملي على JavaScript',
+						Describe:
+							'تطبيق عملي لمفاهيم JavaScript من خلال تمارين ومشاريع تفاعلية لفهم أعمق للغة.',
 						roadSubtitle: 'Week 5 - الأسبوع الخامس',
 					},
 					{
 						icon: '🛠️',
 						roadTitle: 'Mini Projects (HTML, CSS, JS)',
-						roadTitleArabic: 'مشاريع صغيرة (HTML، CSS، JS)',
+						Describe:
+							'بناء مشاريع صغيرة تجمع بين HTML وCSS وJavaScript لتقوية المهارات المكتسبة.',
 						roadSubtitle: 'Week 6 - الأسبوع السادس',
 					},
 					{
 						icon: '🔧',
 						roadTitle: 'Git, GitHub & Tailwind CSS',
-						roadTitleArabic: 'Git وGitHub وTailwind CSS',
+						Describe:
+							'تعلم أساسيات نظام التحكم في الإصدارات Git، واستخدام GitHub، بالإضافة إلى مكتبة Tailwind CSS لتصميم سريع ومرن.',
 						roadSubtitle: 'Week 7 - الأسبوع السابع',
 					},
 					{
 						icon: '⚛️',
 						roadTitle: 'React.js Fundamentals',
-						roadTitleArabic: 'مبادئ React.js',
+						Describe:
+							'مقدمة إلى مكتبة React.js لتطوير واجهات المستخدم، وتشمل المفاهيم الأساسية مثل المكونات (Components) والحالة (State) والخصائص (Props).',
 						roadSubtitle: 'Week 8 - الأسبوع الثامن',
 					},
 					{
 						icon: '⚛️',
 						roadTitle: 'React.js Advanced & Hooks',
-						roadTitleArabic: 'React.js المتقدم وHooks',
+						Describe:
+							'التعمق في React.js باستخدام الـ Hooks مثل useState وuseEffect، بالإضافة إلى مفاهيم متقدمة مثل رفع الحالة (Lifting State) وإدارة الحالة.',
 						roadSubtitle: 'Week 9 - الأسبوع التاسع',
 					},
 					{
 						icon: '📂',
 						roadTitle: 'React.js Projects',
-						roadTitleArabic: 'مشاريع باستخدام React.js',
+						Describe:
+							'بناء مشاريع تطبيقية باستخدام React.js لتقوية الفهم العملي والتعامل مع سيناريوهات حقيقية.',
 						roadSubtitle: 'Week 10 - الأسبوع العاشر',
 					},
 					{
 						icon: '📝',
 						roadTitle: 'TypeScript & Next.js Basics',
-						roadTitleArabic: 'أساسيات TypeScript وNext.js',
+						Describe:
+							'التعرف على TypeScript وأساسيات العمل مع Next.js لتطوير تطبيقات متقدمة بمزايا قوية مثل SSR وRouting.',
 						roadSubtitle: 'Week 11 - الأسبوع الحادي عشر',
 					},
 					{
 						icon: '📦',
 						roadTitle: 'Projects with TypeScript & Next.js',
-						roadTitleArabic: 'مشاريع باستخدام TypeScript وNext.js',
+						Describe:
+							'تطبيق المعرفة من خلال بناء مشاريع باستخدام TypeScript وNext.js، مع التركيز على البنية النظيفة وتحسين الأداء.',
 						roadSubtitle: 'Week 12 - الأسبوع الثاني عشر',
 					},
 					{
 						icon: '🎓',
 						roadTitle: 'Final Assessment & Certificate Test',
-						roadTitleArabic: 'الاختبار النهائي للحصول على الشهادة',
+						Describe:
+							'تقييم نهائي شامل للمحتوى الذي تم تعلمه، مع اختبار للحصول على شهادة اجتياز الدورة.',
 						roadSubtitle: 'Week 13 - الأسبوع الثالث عشر',
 					},
 				]}

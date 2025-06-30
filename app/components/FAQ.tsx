@@ -51,13 +51,13 @@ const FAQ = ({ textColor }: FAQProps) => {
 	];
 
 	return (
-		<div className='bg-cyan-50 py-12 min-h-screen'>
+		<div className='bg-cyan-50 py-12 px-4 h-screen'>
 			<h1
 				className={`${textColor} w-full text-center font-bold text-3xl mb-10`}>
 				أسئلة شائعة
 			</h1>
 
-			<div className='max-w-4xl mx-auto space-y-4'>
+			<div className='max-w-4xl  mx-auto space-y-4'>
 				{questions.map((item, index) => {
 					return (
 						<div
