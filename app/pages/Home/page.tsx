@@ -15,11 +15,10 @@ const HomePage = () => {
 
 			<div className='space-y-32 '>
 				<div>
-					{' '}
 					<Hero />
 				</div>
 				<div>
-					<section className='flex justify-center items-center  flex-col gap-3 mb-10'>
+					<section className='flex justify-center items-center  px-4 flex-col gap-3 mb-10'>
 						<h1 className='text-5xl text-gray-700'>دورات أكاديمية توكن</h1>
 						<p className='text-xl text-gray-600'>
 							دورات شاملة لتعلم البرمجة تعتمد على التطبيق العملي وبناء مشاريع

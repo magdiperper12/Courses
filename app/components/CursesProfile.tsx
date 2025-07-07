@@ -158,6 +158,7 @@ const CursesProfile = ({
 				</h1>
 				<Courses />
 			</section>
+
 			<Footer
 				color={`${color}`}
 				textColor={`text-white`}

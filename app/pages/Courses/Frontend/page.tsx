@@ -1,7 +1,7 @@
 import React from 'react';
 import CursesProfile from '../../../components/CursesProfile';
 
-const page = () => {
+const Frontend = () => {
 	return (
 		<div>
 			<CursesProfile
@@ -126,4 +126,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default Frontend;

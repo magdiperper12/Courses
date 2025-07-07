@@ -3,8 +3,8 @@ import React from 'react';
 
 const Why = () => {
 	return (
-		<div className=' flex flex-col justify-center items-center gap-10 py-10'>
-			<div className='grid grid-cols-3 w-7xl m-auto gap-12 gap-y-10'>
+		<div className=' flex flex-col justify-center items-center gap-10 py-10 px-4 max-w-7xl m-auto'>
+			<div className='grid grid-cols-1 md:grid-cols-3   m-auto gap-12 gap-y-10'>
 				<SecoundBox
 					icon={'/secoundBox/certificate.png'}
 					title='شهادة معتمدة'
@@ -21,7 +21,7 @@ const Why = () => {
 					subtitle='نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة.'
 				/>
 			</div>
-			<div className='grid grid-cols-2 w-7xl m-auto gap-7 gap-y-10'>
+			<div className='grid grid-cols-1 md:grid-cols-2  m-auto gap-7 gap-y-10'>
 				<SecoundBox
 					icon={'/secoundBox/projects.png'}
 					title='مشاريع عملية حقيقية'
@@ -33,7 +33,7 @@ const Why = () => {
 					subtitle='بعد منحك الشهادة ستحصل على موقع إلكتروني لمدة سنة مقدم من توكن'
 				/>
 			</div>
-			<div className='grid grid-cols-3 w-7xl m-auto gap-7 gap-y-10'>
+			<div className='grid grid-cols-1 md:grid-cols-3 m-auto gap-7 gap-y-10'>
 				<SecoundBox
 					icon={'/secoundBox/works.png'}
 					title='بناء معرض أعمال'
