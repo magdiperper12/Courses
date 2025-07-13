@@ -19,7 +19,12 @@ const Header = ({ color, textColor }: HeaderProps) => {
 			className={` ${color} text-white  border-b-2 p-4 relative w-full px-10 md:px-12 xl:px-20 flex justify-between items-center`}>
 			<Link
 				href={'/'}
-				className='text-2xl  font-bold'>
+				className='text-2xl  font-bold flex justify-center items-center flex-col '>
+				<span
+					className='text-xs text-white bg-red-500 rounded-full px-4 absolute top-2  animate-pulse border-white border-2
+'>
+					under development
+				</span>
 				{`</ Token>`}
 			</Link>
 			{/*large screen */}
